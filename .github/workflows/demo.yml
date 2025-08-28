@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run Action 1
-        uses: SriGanesh373/gh_cicd_practise/action1
+        uses: SriGanesh373/gh_cicd_practise/action1@main
       - name: Run Action 2
-        uses: SriGanesh373/gh_cicd_practise/action2
+        uses: SriGanesh373/gh_cicd_practise/action2@main
