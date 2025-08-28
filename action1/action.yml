@@ -1,0 +1,5 @@
+name: 'Action 1'
+description: 'A simple custom action 1'
+runs:
+  using: 'node12'
+  main: '../src/js/action1.js'

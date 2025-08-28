@@ -1,7 +1,11 @@
-name: demo-workflow
-on: workflow_dispatch
+name: Demo Workflow
+on:
+  workflow_dispatch:
 jobs:
-  default-job:
+  demo:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello World"
+      - name: Run Action 1
+        uses: SriGanesh373/gh_cicd_practise/action1
+      - name: Run Action 2
+        uses: SriGanesh373/gh_cicd_practise/action2
